@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عروض ibn zayd</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Tajawal", sans-serif;
+            background: #fff5ef;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff3b2f, #ff8c2f);
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .offers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .offer {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid #ff8c2f;
+            box-shadow: 0 0 10px #00000015;
+        }
+
+        .offer img {
+            width: 100%;
+            border-radius: 10px;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .price {
+            background: #ff3b2f;
+            color: white;
+            padding: 8px;
+            display: inline-block;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        a.back {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🔥 عروض مطعم ibn zayd 🔥</h1>
+    <p>عروض محدودة – سارع الآن!</p>
+</header>
+
+<section class="section">
+
+    <div class="offers-grid">
+
+        <div class="offer">
+            <img src="https://images.unsplash.com/photo-1603048297172-c92544798f64">
+            <h3>عرض ساندويتش + عصير</h3>
+            <p class="price">20 DH فقط</p>
+        </div>
+
+        <div class="offer">
+            <img src="https://images.unsplash.com/photo-1606755962773-0c3c99fe5e3d">
+            <h3>تاكوس ميكس + بطاطا</h3>
+            <p class="price">30 DH</p>
+        </div>
+
+        <div class="offer">
+            <img src="https://images.unsplash.com/photo-1594212699903-ec394a6a58d6">
+            <h3>تاكوس دجاج + عصير</h3>
+            <p class="price">30 DH</p>
+        </div>
+
+        <div class="offer">
+            <img src="https://images.unsplash.com/photo-1562967914-608f82629710">
+            <h3>Grand Tacos + بطاطا + صوص</h3>
+            <p class="price">45 DH</p>
+        </div>
+
+    </div>
+
+    <a class="back" href="index.html">العودة إلى الرئيسية</a>
+
+</section>
+
+</body>
+</html>
